@@ -1,0 +1,28 @@
+:root {
+    --color-for-info-in-card: rgb(235, 235, 235);
+    --color-for-shadow: rgba(0, 0, 0, 0.1);
+    --color-for-input-border: rgb(213, 213, 213);
+    --color-for-button: rgb(155, 31, 226);
+    --color-for-button-hover: rgb(128, 11, 195);
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.success-checkmark {
+    background-image: url('../../../public/images/icon-complete.svg');
+    background-size: cover;
+    background-position: center; 
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

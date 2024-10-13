@@ -1,0 +1,95 @@
+:root {
+    --color-for-info-in-card: rgb(235, 235, 235);
+    --color-for-shadow: rgba(0, 0, 0, 0.1);
+    --color-for-input-border: rgb(213, 213, 213);
+    --color-for-button: rgb(155, 31, 226);
+    --color-for-button-hover: rgb(128, 11, 195);
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.form{
+    max-width: 350px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name-for-cardholder{
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.input-for-name{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--color-for-input-border);
+}
+
+.input-for-card-number{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--color-for-input-border);
+}
+
+.container-for-date{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-for-CVC{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-for-date-and-CVC{
+    display:flex ;
+    gap: 15px;
+}
+
+.input-for-date{
+    width: 33%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--color-for-input-border);
+}
+
+.input-for-CVC{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--color-for-input-border);
+}
+
+.confirm-button {
+    background-color: var(--color-for-button);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.confirm-button:hover {
+    background-color: var(--color-for-button-hover);
+}
+
+.container-for-month-day{
+    display: flex;
+    gap: 15px;
+}
+
+.containerForDate{
+    display: flex; 
+}
+

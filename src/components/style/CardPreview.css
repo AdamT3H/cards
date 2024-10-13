@@ -1,0 +1,90 @@
+:root {
+    --color-for-info-in-card: rgb(235, 235, 235);
+    --color-for-shadow: rgba(0, 0, 0, 0.1);
+    --color-for-input-border: rgb(213, 213, 213);
+    --color-for-button: rgb(155, 31, 226);
+    --color-for-button-hover: rgb(128, 11, 195);
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.card-previev{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bg-card-back{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px 10px var(--color-for-shadow);
+    transition: transform 0.3s ease;
+}
+
+.bg-card-back:hover {
+    transform: scale(1.2); /* збільшує елемент на 20% */
+}
+
+.bg-card-front{
+    background-image: url('../../../public/images/bg-card-front.png');
+    background-size: cover;
+    background-position: center; 
+    width: 90%;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px 10px var(--color-for-shadow);
+    position: relative;
+    right: 30%;    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    transition: transform 0.3s ease;
+}
+
+.bg-card-front:hover {
+    transform: scale(1.2); /* збільшує елемент на 20% */
+}
+
+.card-number{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--color-for-info-in-card)
+}
+
+.containerForDateName{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-name, .card-expiry {
+    margin-top: 10px;
+    color: var(--color-for-info-in-card);
+    text-transform: uppercase;
+}
+
+.bg-card-back{
+    background-image: url('../../../public/images/bg-card-back.png');
+    background-size: cover;
+    background-position: center; 
+    width: 440px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px 10px var(--color-for-shadow);
+    position: relative;   
+    padding: 98px 50px 95px 95px;
+    display: flex;
+    flex-direction: column;
+}
+.card-CVV {
+    font-size: 1em;
+    color: white;
+    text-align: right;
+}

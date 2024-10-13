@@ -1,3 +1,18 @@
+:root {
+  --color-for-info-in-card: rgb(235, 235, 235);
+  --color-for-shadow: rgba(0, 0, 0, 0.1);
+  --color-for-input-border: rgb(213, 213, 213);
+  --color-for-button: rgb(155, 31, 226);
+  --color-for-button-hover: rgb(128, 11, 195);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'OCR A Std', monospace;
+}
+
 .App {
   text-align: center;
 }
